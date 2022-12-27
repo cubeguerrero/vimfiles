@@ -1,6 +1,4 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
--- Only required if you have packer configured as `opt`
+-- [[ plugins.nvim ]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
@@ -26,4 +24,12 @@ return require('packer').startup(function(use)
       'nvim-lua/plenary.nvim'
     }
   }
+  use { 'Yggdroot/indentLine' }                      -- see indentation
+  use { 'tpope/vim-fugitive' }                       -- git integration
+  use { 'tpope/vim-surround' }
+  use { 'tpope/vim-commentary' }
+  use { 'junegunn/gv.vim' }                          -- commit history
+
+  -- [[ LSP ]]
+  use { 'neovim/nvim-lspconfig' }
 end)

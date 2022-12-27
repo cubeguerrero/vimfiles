@@ -8,8 +8,9 @@ vim.g.mapleader = " "
 -- IMPORTS
 require('vars')      -- Variables
 require('opts')      -- Options
--- require('keys')      -- Keymaps
-require('plugins')      -- Plugins
+require('keys')      -- Keymaps
+require('plugins')   -- Plugins
 
 -- PLUGINS
-require("nvim-tree").setup()
+require('nvim-tree').setup{}
+require('nvim-treesitter').setup{}
