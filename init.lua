@@ -10,6 +10,7 @@ require('vars')      -- Variables
 require('opts')      -- Options
 require('keys')      -- Keymaps
 require('plugins')   -- Plugins
+require('lsp')       -- LSP
 
 -- PLUGINS
 require('nvim-tree').setup{}
