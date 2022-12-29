@@ -14,4 +14,9 @@ require('lsp')       -- LSP
 
 -- PLUGINS
 require('nvim-tree').setup{}
-require('nvim-treesitter').setup{}
+require('nvim-treesitter').setup{
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = true,
+  }
+}
