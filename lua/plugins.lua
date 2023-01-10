@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use { 'mhinz/vim-startify' }                       -- start screen
   use { 'DanilaMihailov/beacon.nvim' }               -- cursor jump
   use { 'arzg/vim-colors-xcode' }                    -- colorscheme
+  use { 'folke/which-key.nvim' }                     -- which-key
 
   -- [[ Dev ]]
   use {
