@@ -8,6 +8,7 @@ return {
   -- UI --
 
   -- Programming --
+  { import = "astrocommunity.pack.fish" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.ruby" },
